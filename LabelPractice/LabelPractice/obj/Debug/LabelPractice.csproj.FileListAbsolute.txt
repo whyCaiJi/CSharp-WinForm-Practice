@@ -1,0 +1,9 @@
+D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\bin\Debug\LabelPractice.exe.config
+D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\bin\Debug\LabelPractice.exe
+D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\bin\Debug\LabelPractice.pdb
+D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\obj\Debug\LabelPractice.csprojResolveAssemblyReference.cache
+D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\obj\Debug\LabelPractice.Form1.resources
+D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\obj\Debug\LabelPractice.Properties.Resources.resources
+D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\obj\Debug\LabelPractice.csproj.GenerateResource.Cache
+D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\obj\Debug\LabelPractice.exe
+D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\obj\Debug\LabelPractice.pdb
