@@ -7,3 +7,4 @@ D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\obj\Debug\
 D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\obj\Debug\LabelPractice.csproj.GenerateResource.Cache
 D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\obj\Debug\LabelPractice.exe
 D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\obj\Debug\LabelPractice.pdb
+D:\CsharpProjects\CSharp-WinForm-Practice\LabelPractice\LabelPractice\obj\Debug\LabelPractice.Form2.resources
