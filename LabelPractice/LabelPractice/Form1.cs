@@ -35,5 +35,12 @@ namespace LabelPractice
         {
             label2.Hide();
         }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // The text is modifiable via accessing the
+            // Text attribute directly, unexpected.
+            label2.Text = "Hahahahah";
+        }
     }
 }
