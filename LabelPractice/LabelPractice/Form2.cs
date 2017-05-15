@@ -22,25 +22,26 @@ namespace LabelPractice
             if (textBox1.Text == string.Empty || textBox2.Text == string.Empty)
             {
                 MessageBox.Show("Should not contain any empty field.", "Warning");
-                textBox1.Clear();
-                textBox2.Clear();
-                textBox1.Focus();
+                clear();
                 return;
             }
             else
             {
                 MessageBox.Show("Welcome to the system!");
-                textBox1.Clear();
-                textBox2.Clear();
-                textBox1.Focus();
+                clear();
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void clear()
         {
             textBox1.Clear();
             textBox2.Clear();
             textBox1.Focus();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            clear();
         }
 
         private void button3_Click(object sender, EventArgs e)
