@@ -1,0 +1,9 @@
+D:\CsharpProjects\CSharp-WinForm-Practice\ListBoxPractice\ListBoxPractice\obj\Debug\ListBoxPractice.csprojResolveAssemblyReference.cache
+D:\CsharpProjects\CSharp-WinForm-Practice\ListBoxPractice\ListBoxPractice\obj\Debug\ListBoxPractice.Form1.resources
+D:\CsharpProjects\CSharp-WinForm-Practice\ListBoxPractice\ListBoxPractice\obj\Debug\ListBoxPractice.Properties.Resources.resources
+D:\CsharpProjects\CSharp-WinForm-Practice\ListBoxPractice\ListBoxPractice\obj\Debug\ListBoxPractice.csproj.GenerateResource.Cache
+D:\CsharpProjects\CSharp-WinForm-Practice\ListBoxPractice\ListBoxPractice\bin\Debug\ListBoxPractice.exe.config
+D:\CsharpProjects\CSharp-WinForm-Practice\ListBoxPractice\ListBoxPractice\bin\Debug\ListBoxPractice.exe
+D:\CsharpProjects\CSharp-WinForm-Practice\ListBoxPractice\ListBoxPractice\bin\Debug\ListBoxPractice.pdb
+D:\CsharpProjects\CSharp-WinForm-Practice\ListBoxPractice\ListBoxPractice\obj\Debug\ListBoxPractice.exe
+D:\CsharpProjects\CSharp-WinForm-Practice\ListBoxPractice\ListBoxPractice\obj\Debug\ListBoxPractice.pdb
