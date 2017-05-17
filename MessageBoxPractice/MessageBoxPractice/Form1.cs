@@ -59,5 +59,13 @@ namespace MessageBoxPractice
                 label1.Text = "You chose Cancel";
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            this.Visible = false;
+            f2.ShowDialog();
+            this.Visible = true;
+        }
     }
 }
