@@ -22,6 +22,8 @@ namespace MDIPractice
             Form2 MdiChild = new Form2();
             // Set the MDI Parent to be Form1
             MdiChild.MdiParent = this;
+            // This modifies how child forms arrange themselves
+            this.LayoutMdi(MdiLayout.Cascade);
             MdiChild.Show();
         }
 
@@ -30,6 +32,7 @@ namespace MDIPractice
             Form3 MdiChild = new Form3();
             MdiChild.MdiParent = this;
             MdiChild.Show();
+            this.LayoutMdi(MdiLayout.TileHorizontal);
         }
 
         private void menuItem5_Click(object sender, EventArgs e)
@@ -37,6 +40,7 @@ namespace MDIPractice
             Form4 MdiChild = new Form4();
             MdiChild.MdiParent = this;
             MdiChild.Show();
+            this.LayoutMdi(MdiLayout.TileVertical);
         }
     }
 }
