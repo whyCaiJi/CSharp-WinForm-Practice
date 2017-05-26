@@ -42,5 +42,12 @@ namespace MDIPractice
             MessageBox.Show("Thanks for your feedback!");
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 fm2 = new Form2();
+            fm2.Show();
+            this.Close();
+        }
     }
 }
