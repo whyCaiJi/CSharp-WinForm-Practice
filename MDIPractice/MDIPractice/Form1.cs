@@ -29,10 +29,10 @@ namespace MDIPractice
 
         private void menuItem4_Click(object sender, EventArgs e)
         {
-            Form3 MdiChild = new Form3();
-            MdiChild.MdiParent = this;
-            MdiChild.Show();
-            this.LayoutMdi(MdiLayout.TileHorizontal);
+            //Form3 MdiChild = new Form3();
+            //MdiChild.MdiParent = this;
+            //MdiChild.Show();
+            //this.LayoutMdi(MdiLayout.TileHorizontal);
         }
 
         private void menuItem5_Click(object sender, EventArgs e)
