@@ -46,6 +46,7 @@ namespace MDIPractice
         private void button2_Click(object sender, EventArgs e)
         {
             Form2 fm2 = new Form2();
+            fm2.MdiParent = this.MdiParent;
             fm2.Show();
             this.Close();
         }

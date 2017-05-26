@@ -39,6 +39,7 @@ namespace MDIPractice
                 Form3 childForm3 = new Form3(this.textBox1.Text, 
                     this.textBox2.Text, this.comboBox1.SelectedItem.ToString(),
                     this.textBox3.SelectedItem.ToString());
+                childForm3.MdiParent = this.MdiParent;
                 childForm3.Show();
             }
         }
