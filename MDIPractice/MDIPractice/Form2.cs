@@ -36,9 +36,11 @@ namespace MDIPractice
             else
             {
                 this.Hide();
-                Form3 childForm3 = new Form3(this.textBox1.Text, 
-                    this.textBox2.Text, this.comboBox1.SelectedItem.ToString(),
-                    this.textBox3.SelectedItem.ToString());
+                Form3 childForm3 = new Form3();
+                childForm3.SomeName = textBox1.Text;
+                childForm3.SomeEmail = textBox2.Text;
+                childForm3.Sometopic = comboBox1.SelectedItem.ToString();
+                childForm3.Someoption = textBox3.SelectedItem.ToString();
                 childForm3.MdiParent = this.MdiParent;
                 childForm3.Show();
             }

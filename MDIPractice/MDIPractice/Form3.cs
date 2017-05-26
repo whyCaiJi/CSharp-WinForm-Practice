@@ -12,29 +12,76 @@ namespace MDIPractice
 {
     public partial class Form3 : Form
     {
-        private string _name;
-        private string _emailId;
-        private string _subject;
-        private string _feedback;
+        private string some_name;
+        private string email_address;
+        private string topic;
+        private string option;
 
-        public Form3(string varName, string varEmail, string varSubject,
-            string varFeedback)
+        // Attribute: name
+        public string SomeName
+        {
+            get
+            {
+                return some_name;
+            }
+
+            set
+            {
+                some_name = value;
+            }
+        }
+
+        // Attribute: email
+        public string SomeEmail
+        {
+            get
+            {
+                return email_address;
+            }
+
+            set
+            {
+                email_address = value;
+            }
+        }
+
+        public string Sometopic
+        {
+            get
+            {
+                return topic;
+            }
+
+            set
+            {
+                topic = value;
+            }
+        }
+
+        public string Someoption
+        {
+            get
+            {
+                return option;
+            }
+
+            set
+            {
+                option = value;
+            }
+        }
+
+        public Form3()
         {
             InitializeComponent();
-            this._name = varName;
-            this._emailId = varEmail;
-            this._subject = varSubject;
-            this._feedback = varFeedback;
-
-            listBox1.Items.Add("Name: " + this._name);
-            listBox1.Items.Add("Email: " + this._emailId);
-            listBox1.Items.Add("Subject: " + this._subject);
-            listBox1.Items.Add("Feedback: " + this._feedback);
         }
 
         private void Form3_Load(object sender, EventArgs e)
         {
-
+            listBox1.Items.Add(SomeName);
+            listBox1.Items.Add(SomeEmail);
+            listBox1.Items.Add(Sometopic);
+            listBox1.Items.Add(Someoption);
         }
 
         private void button1_Click(object sender, EventArgs e)
