@@ -19,11 +19,18 @@ namespace MDIPractice
 
         private void menuItem3_Click(object sender, EventArgs e)
         {
+            foreach (Form childForm in this.MdiChildren)
+            {
+                if (childForm.Name == "Form2")
+                {
+                    childForm.Visible = true;
+                    childForm.Activate();
+                    return;
+                }
+            }
             Form2 MdiChild = new Form2();
             // Set the MDI Parent to be Form1
             MdiChild.MdiParent = this;
-            // This modifies how child forms arrange themselves
-            this.LayoutMdi(MdiLayout.Cascade);
             MdiChild.Show();
         }
 
