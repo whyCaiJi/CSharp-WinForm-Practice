@@ -16,5 +16,23 @@ namespace TabControlPractice
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            ShowInfo();
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ShowInfo();
+        }
+
+        private void ShowInfo()
+        {
+            label1.Text = "Current tab: " + this.tabControl1.
+                SelectedIndex.ToString() + " page, the tab name is "
+                + tabControl1.SelectedTab.Text + ". There are "
+                + tabControl1.TabCount.ToString() + " tabs.";
+        }
     }
 }
