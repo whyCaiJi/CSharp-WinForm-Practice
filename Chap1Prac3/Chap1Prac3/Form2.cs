@@ -16,5 +16,10 @@ namespace Chap1Prac3
         {
             InitializeComponent();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

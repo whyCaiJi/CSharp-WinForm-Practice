@@ -16,5 +16,12 @@ namespace Chap1Prac3
         {
             InitializeComponent();
         }
+
+        private void newToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 newForm = new Form2();
+            newForm.MdiParent = this;
+            newForm.Show();
+        }
     }
 }
