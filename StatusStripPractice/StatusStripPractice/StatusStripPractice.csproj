@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{40070614-69A4-42C9-AAEB-1BB263DB86EC}</ProjectGuid>
+    <ProjectGuid>{B8FAAEBC-0FA0-4F35-8E66-43629D86456B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ImageListPractice</RootNamespace>
-    <AssemblyName>ImageListPractice</AssemblyName>
+    <RootNamespace>StatusStripPractice</RootNamespace>
+    <AssemblyName>StatusStripPractice</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
