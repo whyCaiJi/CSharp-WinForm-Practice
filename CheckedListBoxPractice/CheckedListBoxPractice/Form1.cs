@@ -35,7 +35,7 @@ namespace CheckedListBoxPractice
                 checkedListBox2.Items.Add(o);
             }
 
-            for (int i=0; i<checkedListBox1.Items.Count; i++)
+            for (int i=checkedListBox1.Items.Count-1; i>=0; i--)
             {
                 if (checkedListBox1.CheckedItems.Contains(checkedListBox1.Items[i]))
                 {
@@ -63,7 +63,7 @@ namespace CheckedListBoxPractice
                 checkedListBox1.Items.Add(o);
             }
 
-            for (int i=0; i<checkedListBox1.Items.Count; i++)
+            for (int i = checkedListBox1.Items.Count - 1; i >= 0; i--)
             {
                 if (checkedListBox2.CheckedItems.Contains(checkedListBox2.Items[i]))
                 {
