@@ -55,6 +55,7 @@
             this.treeView1.Name = "treeView1";
             this.treeView1.Size = new System.Drawing.Size(271, 211);
             this.treeView1.TabIndex = 1;
+            this.treeView1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.treeView1_MouseDown);
             // 
             // label1
             // 
@@ -73,24 +74,27 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Expand";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(116, 270);
+            this.button2.Location = new System.Drawing.Point(107, 270);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 4;
             this.button2.Text = "Expand All";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(217, 270);
+            this.button3.Location = new System.Drawing.Point(205, 270);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(87, 23);
             this.button3.TabIndex = 5;
-            this.button3.Text = "Unfold All";
+            this.button3.Text = "Collapse All";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // contextMenuStrip1
             // 
@@ -99,25 +103,28 @@
             this.addNodeToolStripMenuItem,
             this.deleteNodeToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(171, 70);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(179, 92);
             // 
             // addChildNodeToolStripMenuItem
             // 
             this.addChildNodeToolStripMenuItem.Name = "addChildNodeToolStripMenuItem";
             this.addChildNodeToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.addChildNodeToolStripMenuItem.Text = "Add Child Node";
+            this.addChildNodeToolStripMenuItem.Click += new System.EventHandler(this.addChildNodeToolStripMenuItem_Click);
             // 
             // addNodeToolStripMenuItem
             // 
             this.addNodeToolStripMenuItem.Name = "addNodeToolStripMenuItem";
-            this.addNodeToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.addNodeToolStripMenuItem.Text = "Add Node";
+            this.addNodeToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.addNodeToolStripMenuItem.Text = "Add Parent Node";
+            this.addNodeToolStripMenuItem.Click += new System.EventHandler(this.addNodeToolStripMenuItem_Click);
             // 
             // deleteNodeToolStripMenuItem
             // 
             this.deleteNodeToolStripMenuItem.Name = "deleteNodeToolStripMenuItem";
-            this.deleteNodeToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.deleteNodeToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.deleteNodeToolStripMenuItem.Text = "Delete Node";
+            this.deleteNodeToolStripMenuItem.Click += new System.EventHandler(this.deleteNodeToolStripMenuItem_Click);
             // 
             // Form1
             // 
