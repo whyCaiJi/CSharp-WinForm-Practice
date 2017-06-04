@@ -25,7 +25,10 @@ namespace CheckedListBoxPractice
             checkedListBox1.Items.Add("Wednesday");
             checkedListBox1.Items.Add("Thursday");
             checkedListBox1.Items.Add("Friday");
-            checkedListBox1.Items.Add("Saturday");           
+            checkedListBox1.Items.Add("Saturday");
+            checkedListBox1.CheckOnClick = true;
+            checkedListBox2.CheckOnClick = true;
+            checkedListBox3.CheckOnClick = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
