@@ -32,6 +32,7 @@ namespace TextEditorPractice
                 else
                 {
                     directory_path = directory_path + textBox1.Text.Trim() + ".txt";
+                    // This line either open the file or create a new one
                     StreamWriter sw = File.CreateText(directory_path);
                     button2.Enabled = true;
                     button3.Enabled = false;
@@ -66,6 +67,7 @@ namespace TextEditorPractice
                     StreamReader sr = new StreamReader(open.FileName,
                         System.Text.Encoding.Default);
                     this.richTextBox1.Text = sr.ReadToEnd();
+                    this.textBox1.Text = open.FileName;
                     sr.Close();
                 }
 
