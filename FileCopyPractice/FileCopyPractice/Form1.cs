@@ -22,18 +22,15 @@ namespace FileCopyPractice
         {
             string somefile = @"D:\test.txt";
             string target = @"D:\1.txt";
-            if (!File.Exists(somefile))
+            FileInfo fi = new FileInfo(somefile);
+            if (!fi.Exists)
             {
                 MessageBox.Show("File does not exist!");
             }
             else
             {
-                if (File.Exists(target))
-                {
-                    File.Delete(target);
-                }
-                File.Copy(somefile, target);
-                MessageBox.Show("File successfully copied!");
+                fi.CopyTo(target);
+                MessageBox.Show("File was successfully copied");
             }
         }
 
